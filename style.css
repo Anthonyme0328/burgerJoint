@@ -18,8 +18,16 @@ body {
   opacity: .7;
 }
 
-/* spacing for the logo */
+/* spacing for links */
+/* needs space around */
 .flexContainer1{
+  display: flex;
+  justify-content: center;
+  align-content: space-evenly;
+}
+
+/* spacing for the logo */
+.flexContainer2{
   display: flex;
   justify-content: center;
 }
