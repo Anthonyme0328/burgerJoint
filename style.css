@@ -1,4 +1,25 @@
-.burgers, .fries, .chicken, .logo{
+/* temp sizing for all pics of food */
+.burgers, .fries, .chicken, .soda, .desert{
   height:200px;
   width:200px;
+}
+
+/* background image for resturant not to dark shows food */
+body {
+  background-image: url("./burgerSitePics/background2.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% cover;
+}
+
+/* burger sign pic at top of page needs space around it */
+.logo{
+  height: 300px;
+  width: 70%;
+  opacity: .7;
+}
+
+/* spacing for the logo */
+.flexContainer1{
+  display: flex;
+  justify-content: center;
 }
