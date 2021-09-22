@@ -1,7 +1,7 @@
 /* temp sizing for all pics of food */
-.burgers, .fries, .chicken, .soda, .desert{
-  height:200px;
-  width:200px;
+.info{
+  height:250px;
+  width:300px;
 }
 
 /* background image for resturant not to dark shows food */
@@ -19,15 +19,44 @@ body {
 }
 
 /* spacing for links */
-/* needs space around */
+/* justify content is not taking two values? but works when its used twice as such */
 .flexContainer1{
   display: flex;
   justify-content: center;
-  align-content: space-evenly;
+  justify-content: space-around;
 }
 
 /* spacing for the logo */
 .flexContainer2{
+  margin-bottom: 100px;
   display: flex;
   justify-content: center;
+
 }
+
+/* moves div for burgers, soda, deserts to right side of page  */
+.foodContainer1, .foodContainer3{
+  display:flex;
+  flex-direction: row-reverse;
+  margin-bottom:15%;
+  margin-left: 25px;
+}
+
+/* moves div for chicken and fries to left  */
+.foodContainer2{
+  display:flex;
+  flex-direction: row;
+  margin-bottom:15%;
+  margin-right: 25px;
+}
+
+/* spacing around and between burgers and soda/desert div */
+.burgers, .soda, .desert{
+  margin-left: 10%;
+}
+
+/* spacing around and between chicken/ fries div */
+.chicken, .fries{
+ margin-right: 10%;
+}
+
