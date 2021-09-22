@@ -4,6 +4,11 @@
   width:300px;
 }
 
+.info:hover{
+  height: 400px;
+  width: 550px;
+}
+
 /* background image for resturant not to dark shows food */
 body {
   background-image: url("./burgerSitePics/background2.jpg");
